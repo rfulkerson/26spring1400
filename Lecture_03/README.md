@@ -4,10 +4,17 @@
 
 Today's lecture was all about looking at basic output and basic input. This summary is not comprehensive of all of the topics covered in the book or lecture, but is meant to be representative of the highlights of discussions that took place.
 
+### Basic output with `print()`
 Basic output is accompished with the `print()` function.
 
 By default, the `print()` statement will print a newline at the end of whatever the statement is printing, which means that the next print statement would start it's content at the beginning of a new line.
 
+```python
+print("Hello world!")
+print("How are you today?!")
+```
+
+### Using `end=` with `print()` to modify behavior
 This behavior can be changed by using the `end=""` parameter for the print statement which changes the last output of the print statement to whatever the `end` parameter is.
 
 For example, the following two statements are identical:
@@ -38,6 +45,7 @@ print("world!")
 # this code would print:   Hello...world!
 ```
 
+### Getting user input with `input()`
 We also talked about basic input using the `input()` function.  Without a parameter (something inside the parentheses), the `input()` function just waits for the user of the program to type some input. With a parameter (a string), the string is used as a prompt to tell the user what to enter.
 
 The results of an `input()` function call need to be stored into a variable so that the value can be used later in the program.
