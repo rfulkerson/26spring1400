@@ -64,7 +64,7 @@ print(x,id(x))     # this will print the new value and the new memory location
 
 We'll see mutable variables later in the semester and be able to better compare and contrast why there are mutable and immutable objects in Python.
 
-# Floating-point Values
+### Floating-point Values
 Lastly, we talked about `float()` and floating point values, as well as a basic overview of f-strings (formatted strings):
 
 ```python
