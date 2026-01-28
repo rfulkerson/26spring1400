@@ -37,10 +37,23 @@ final_value = my_value * 10
 
 Two assignment statements, one which takes user input and converts it to an integer value, and another that multiplies that input value (stored in `my_value`) by 10 to store it into `final_value`.
 
+If you have assignment statements that assign to the same variable, the value stored in the variable will always be the last assignment in the statement sequence.  So, for example:
+
+```python
+tax_rate = 0.07
+print(tax_rate)      # prints 0.07
+tax_rate = 0.065
+print(tax_rate)      # prints 0.065
+```
+
+An analogy for this is if you have a time written down to meet someone for coffee as 9:00am and then you have to push that time back to 9:30am, you'll always use the last value for that coffee date. You could certainly show up for coffee at 9:00am, but the person you're meeting won't be there until 9:30am because that was the updated, agreed-upon time for the meeting.
+
 ### Variables as Objects
 We also briefly talked about every variable being an object and each object in Python having a value (what's stored in the variable) and the `type()` (such as integer, float, or string), and the `id()`, which is where the variable is stored in memory.
 
-For a little more context, the id of a variable helps to demonstrate the last concept we talked about, which is mutability. Variables that are integers, floats, or strings are *immutable*, which means that when you store a value into a variable and then change that value, the variable name stays the same but Python allocates an entirely different location in memory for the new value to be stored in. It's kind of like having a sticky note with a title of "Important Phone Number" having a value of 1-800-555-1111 and then, if you change the important phone number on the sticky note to 1-800-555-1112 the location of the sticky note needs to move from its original position. This is a rough analogy -- you don't *have* to move the sticky note -- but assuming that you would have to take the sticky note off the wall to change the number, you probaby wouldn't get it back in *exactly* the same place it was before.  This is immutability.  You can change the value of a variable, but it will keep moving around in memory as you do that.
+For a little more context, the id of a variable helps to demonstrate the last concept we talked about, which is mutability. Variables that are integers, floats, or strings are *immutable*, which means that when you store a value into a variable and then change that value, the variable name stays the same but Python allocates an entirely different location in memory for the new value to be stored in. 
+
+It's kind of like having a sticky note with a title of "Important Phone Number" having a value of 1-800-555-1111 and then, if you change the important phone number on the sticky note to 1-800-555-1112 the location of the sticky note needs to move from its original position. This is a rough analogy -- you don't *have* to move the sticky note -- but assuming that you would have to take the sticky note off the wall to change the number, you probaby wouldn't get it back in *exactly* the same place it was before.  This is immutability.  You can change the value of a variable, but it will keep moving around in memory as you do that.
 
 ```python
 my_x = 2112
