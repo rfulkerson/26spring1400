@@ -4,9 +4,9 @@
 
 We started our conversation discussing the results of Quiz #1.
 
-I mentioned a document I've been working on that discusses [https://github.com/rfulkerson/rfulkerson.github.io/blob/master/ai_for_cs1.md](Using AI Responbile for CS1). Please feel free to read through that document if you're interested.
+I mentioned a document I've been working on that discusses [Using AI Responsibly for CS1](https://github.com/rfulkerson/rfulkerson.github.io/blob/master/ai_for_cs1.md). Please feel free to read through that document if you're interested.
 
-One of the tasks I believe is a responsible use of AI in CS1 courses is to generate interactive quiz reviews with an infinitely patient CS1 tutor. I demonstrated a modified version of the quiz prompts I have developed in the previously mentioned document, but for use in the [http://app.circlein.com/](CircleIn) app's AI module.  Since the CircleIn AI is trained on our textbook, you can directly ask it to create an interactive quiz review for specific lectures.
+One of the tasks I believe is a responsible use of AI in CS1 courses is to generate interactive quiz reviews with an infinitely patient CS1 tutor. I demonstrated a modified version of the quiz prompts I have developed in the previously mentioned document, but for use in the [CircleIn](http://app.circlein.com/) app's AI module.  Since the CircleIn AI is trained on our textbook, you can directly ask it to create an interactive quiz review for specific lectures.
 
 Here's the prompt I used to set up a review for Quiz #2. Feel free to adapt it to focus on (or exclude) one type of question. Modify it to adapt to your specific learning style:
 
